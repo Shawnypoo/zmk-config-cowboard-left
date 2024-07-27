@@ -1,4 +1,4 @@
-if SHIELD_COWBOARD_LEFT
+if SHIELD_LCOWBOARD
 
 config ZMK_KEYBOARD_NAME
     default "Cowboard Left"
