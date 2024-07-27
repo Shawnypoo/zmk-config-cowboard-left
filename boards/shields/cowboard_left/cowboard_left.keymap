@@ -53,8 +53,8 @@
             bindings = <
     &trans  &kp F1          &kp F2          &kp F3     &kp F4   &kp F5                                                
     &trans  &kp PRINTSCREEN &kp PAUSE_BREAK &kp INSERT &kp HOME &kp PAGE_UP                                                 
-    &trans  &trans          &kp trans       &kp DELETE &kp END  &kp PAGE_DOWN  &kp trans 
-                                                                &mo BLUETOOTH &trans    
+    &trans  &trans          &kp trans       &kp DELETE &kp END  &kp PAGE_DOWN  &trans 
+                                                                &mo BLUETOOTH  &trans    
                                                                 &tog DEFAULT   &trans  
             >;
         };
