@@ -25,7 +25,7 @@
                                                      &tog SPECIAL   &kp ENTER    
                                                      &kp BACKSPACE  &kp SPACE  
             >;
-        }
+        };
     
     special_layer {
 // ----------------------------------------------------------------------------
@@ -41,7 +41,7 @@
                                                                        &tog FUNCTION     &trans    
                                                                        &tog DEFAULT      &trans  
             >;
-        }
+        };
     
     function_layer {
 // -----------------------------------------------------------------------------
@@ -57,7 +57,7 @@
                                                                 &mo BLUETOOTH &trans    
                                                                 &tog DEFAULT   &trans  
             >;
-        }
+        };
     bluetooth_layer {
 // -----------------------------------------------------------------------------
 // |  BTCLR |   BT1   |   BT2   |   BT3   |   BT4   |   BT5   |           
@@ -72,6 +72,6 @@
                                                                  &trans       &trans    
                                                                  &trans       &trans  
             >;
-        }
+        };
     };
 };
