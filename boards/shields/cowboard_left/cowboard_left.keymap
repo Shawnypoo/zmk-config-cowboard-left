@@ -22,7 +22,7 @@
     &kp TAB    &kp Q    &kp W    &kp E     &kp R     &kp T                                                
     &kp LSHIFT &kp A    &kp S    &kp D     &kp F     &kp G                                                 
     &kp LCTRL  &kp Z    &kp X    &kp C     &kp V     &kp B          &kp BACKSPACE 
-                                                     &tog SPECIAL   &kp ENTER    
+                                                     &to SPECIAL    &kp ENTER    
                                                      &kp M          &kp SPACE  
             >;
         };
@@ -37,9 +37,9 @@
                 bindings = <
     &kp GRAVE &kp N1   &kp N2        &kp N3         &kp N4           &kp N5                                                
     &trans    &kp N6   &kp N7        &kp N8         &kp N9           &kp N0                                                 
-    &trans    &trans   &kp LEFT_WIN  &kp BACKSLASH  &kp LEFT_BRACKET &kp RIGHT_BRACKET &tog DEFAULT
-                                                                     &tog FUNCTION     &trans    
-                                                                     &tog DEFAULT      &trans  
+    &trans    &trans   &kp LEFT_WIN  &kp BACKSLASH  &kp LEFT_BRACKET &kp RIGHT_BRACKET &to DEFAULT
+                                                                     &to FUNCTION     &trans    
+                                                                     &to DEFAULT      &trans  
             >;
         };
     
@@ -53,9 +53,9 @@
             bindings = <
     &trans  &kp F1          &kp F2          &kp F3     &kp F4   &kp F5                                                
     &trans  &kp PRINTSCREEN &kp PAUSE_BREAK &kp INSERT &kp HOME &kp PAGE_UP                                                 
-    &trans  &trans          &trans          &kp DELETE &kp END  &kp PAGE_DOWN  &tog DEFAULT 
+    &trans  &trans          &trans          &kp DELETE &kp END  &kp PAGE_DOWN  &to DEFAULT 
                                                                 &mo BLUETOOTH  &trans    
-                                                                &tog DEFAULT   &trans  
+                                                                &to DEFAULT   &trans  
             >;
         };
     bluetooth_layer {
