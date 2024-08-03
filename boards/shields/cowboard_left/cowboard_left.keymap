@@ -23,7 +23,7 @@
     &kp LSHIFT &kp A    &kp S    &kp D     &kp F     &kp G                                                 
     &kp LCTRL  &kp Z    &kp X    &kp C     &kp V     &kp B          &kp BACKSPACE 
                                                      &tog SPECIAL   &kp ENTER    
-                                                     &kp m          &kp SPACE  
+                                                     &kp M          &kp SPACE  
             >;
         };
     
